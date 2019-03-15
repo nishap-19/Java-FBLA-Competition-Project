@@ -1,0 +1,80 @@
+Family Entertainment Center Database Program by Nisha Patel
+
+Run the executable jar file named "FEC_DATABASE" to see program in action.
+
+Use the sample files: Customers folder, Schedules folder, and Employees file
+-place sample files in same directory as jar file
+
+These are the files that are used to build the program...
+
+*****************************************************************************************************
+
+FECMainScreen
+-This program displays the main GUI and displays options to view employees, schedules, and customers
+-This is the main class file to use to lauch the program
+
+helpMain
+-Help menu GUI for main FEC home page
+
+*****************************************************************************************************
+
+fecEmployeeData
+-This is the class file used to generate demographic employee information
+
+GatherFECEmployees
+-This support file pulls all of the imformation for each employee from the file
+
+fecEmployees
+-This program allows the user to choose the option to view or edit the list of FEC employees
+
+fecEmployeeRoster
+-This program allows the user to view, update, and delete employee information
+
+helpEmployees
+-Help menu GUI for FEC employee roster
+
+*****************************************************************************************************
+
+WorkDays
+-This support class file is used to create store the work schedule for an employee
+
+PullAllSchedules
+-This is the support file that pulls all employee schedule data
+
+ScheduleSelector
+-This progrm allows users to choose a specific weekly schedule to view. It links to the schedule editor
+
+newWorkSchedule
+-This program allows the user to create new employee work schedules
+
+fecWorkSchedule
+-This program allows the user to view a specific work schedule and edit it
+
+helpSchedules
+-Help menu GUI for employee work schedules
+
+
+*****************************************************************************************************
+
+fecCustomerData
+-This file organizes data given for each customer and checks them in
+
+fecCustomers
+-This program allows the user to check in customers and view weekly customer logs
+
+PullAllCustomers
+-This is the support file that pulls all customer data
+
+weeklyCustomers
+-This is a support file that tracks customer entries for each week
+
+helpCustomers
+-Help menu GUI for customer attendance logs
+
+*****************************************************************************************************
+
+CharLimiter
+-This file is used to restrict the character input in different textfields throughout the program
+
+Printing
+-This file is used to allow the user to print the work schedlues and customer logs
